@@ -1,0 +1,6 @@
+# Dependencies
+node_modules/
+
+#DB config
+mysql_config.js
+schema.sql

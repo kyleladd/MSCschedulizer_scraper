@@ -1,0 +1,26 @@
+{
+  "name"         : "msc-db-scraper-loader",
+  "version"      : "0.0.1",
+  "description"  : "Scrape MSC course listings.",
+  "author"       : "Kyle Ladd",
+  "engines": {
+    "node": "4.2.4"
+  },
+  "dependencies" : {
+    "request"    : "latest",
+    "scraperjs"    : "latest",
+    "mysql":"latest",
+    "async" : "latest",
+    "fs":"latest",
+    "node_generic_functions":"https://github.com/kyleladd/node_generic_functions.git"
+  },
+   "devDependencies": {
+    "mocha"    : "latest",
+    "expect.js":"latest",
+    "chai":"latest",
+    "chai-spies":"latest",
+    "sinon":"latest",
+    "sinon-chai":"latest",
+    "stdio":"latest"
+  }
+}
